@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicação para gerenciar alunos</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="window-main">
+        <div class="window-frame">
+            <div class="window-bg"></div>
+            <div class="top-main">
+                <div class="top-bg"></div>
+                <div class="top-text-1">
+                    <span><span class="top-text-1-span">Guia dos </span><span
+                            class="top-text-1-span2">Comandos</span></span>
+                </div>
+                <div class="top-text-2">Gerenciamento de Turmas e Alunos<br /></div>
+                <div class="top-line"></div>
+            </div>
+            <div class="infos-main">
+                <div class="turmas-main">
+                    <div class="turmas-frame">
+                        <div class="turmas-border"></div>
+                        <div class="turmas-title">Turmas</div>
+                        <div class="turmas-text">
+                            <span><span class="turmas-text-span">▸ Cadastrar Turma<br /></span><span
+                                    class="turmas-text-span2">cadastrarTurma(código, máximo de
+                                    alunos);<br /></span><span class="turmas-text-span3"><br /></span><span
+                                    class="turmas-text-span4">▸ Quantidade de Turmas<br /></span><span
+                                    class="turmas-text-span5">console.log(quantidadeTurmas());</span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="outros-main">
+                    <div class="outros-frame">
+                        <div class="outros-border"></div>
+                        <div class="outros-title">Outros</div>
+                        <div class="outros-text">
+                            <span><span class="outros-text-span">▸ Gerar relatório completo<br /></span><span
+                                    class="outros-text-span2">console.log(relatorioCompleto());<br /></span><span
+                                    class="outros-text-span3"><br /></span><span class="outros-text-span4">▸ Listar
+                                    Aluno(a)s por Classificação<br /></span><span
+                                    class="outros-text-span5">console.log(listarAlunosClassificacao(&#039;valor&#039;));<br /><br />Obs:
+                                    As classificações vão de A até D<br />Mais informações no
+                                    “guide.md”</span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="alunos-main">
+                    <div class="alunos-frame">
+                        <div class="alunos-border"></div>
+                        <div class="alunos-title">Alunos</div>
+                        <div class="alunos-text">
+                            <span><span class="alunos-text-span">▸ Cadastrar Aluno(a)<br /></span><span
+                                    class="alunos-text-span2">cadastrarAluno(&quot;nome&quot;, &quot;sobrenome&quot;,
+                                    &quot;email&quot;, código da turma, &quot;data de nascimento
+                                    (01-01-0001)&quot;, [10, 9,8 ,7 (notas) ]);<br /></span><span
+                                    class="alunos-text-span3"><br /></span><span class="alunos-text-span4">▸ Remover
+                                    Aluno(a)<br /></span><span
+                                    class="alunos-text-span5">removerAluno(&quot;email&quot;);<br /></span><span
+                                    class="alunos-text-span6"><br /></span><span class="alunos-text-span7">▸ Atualizar
+                                    dados do Aluno(a)<br /></span><span
+                                    class="alunos-text-span8">atualizarAluno(&quot;email&quot;, (dados novos) &lcub;
+                                    nome:
+                                    &quot;Matheus&quot;, notas: [9, 9, 10, 10] &rcub;);<br /><br /></span><span
+                                    class="alunos-text-span9">▸ Buscar Aluno(a)<br /></span><span
+                                    class="alunos-text-span10">console.log(buscarAluno(&quot;email&quot;));<br /><br /></span><span
+                                    class="alunos-text-span11">▸ Listar todos os Aluno(a)s<br /></span><span
+                                    class="alunos-text-span12">console.log(listarAlunos());<br /><br /></span><span
+                                    class="alunos-text-span13">▸ Calcular média de um Aluno(a)<br /></span><span
+                                    class="alunos-text-span14">console.log(calcularMediaAluno(&quot;email&quot;));<br /><br /></span><span
+                                    class="alunos-text-span15">▸ Desativar um Aluno(a)<br /></span><span
+                                    class="alunos-text-span16">desativarAluno(&quot;email&quot;);<br /><br /></span><span
+                                    class="alunos-text-span17">▸ Listar Aluno(a)s ativos<br /></span><span
+                                    class="alunos-text-span18">console.log(listarAlunosAtivos());<br /><br /></span><span
+                                    class="alunos-text-span19">▸ Listar Aluno(a)s inativos
+                                    (desativados)<br /></span><span
+                                    class="alunos-text-span20">console.log(listarAlunosInativos());<br /><br /></span><span
+                                    class="alunos-text-span21">▸ Listar Aluno(a)s acima da média<br /></span><span
+                                    class="alunos-text-span22">console.log(listarAlunosMediaEsperada());</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="warning">
+                Aviso importante: Use Ctrl + Scroll para Zoom
+            </div>
+            <div class="credits">
+                Feito por Matheus Benasse
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
